@@ -153,7 +153,7 @@ Usage of bin/iotedge:
 ### 测试test主题
 
 * Publish
-  ```
+  ```JSON
   {
     "i": 5,
     "id": 5
@@ -161,7 +161,7 @@ Usage of bin/iotedge:
   ```
   ![./image/iie_MQTTfx_test_Publish.png](./image/iie_MQTTfx_test_Publish.png)
 * Subscribe  
-  ```
+  ```JSON
   {
     "cid": "MQTTClient",
     "sayhi": {
@@ -187,7 +187,7 @@ Usage of bin/iotedge:
 
 ### 默认Log日志
 
-```
+```Shell
 pi@raspberrypi:~/zengjf/iot-intelligent-edge-beta-0.9.3.22-linux-arm$ cat var/log/iotedge.log 
 time="2018-03-22T11:41:43Z" level=info msg="Create function instance successfully" component=funclet instance=8179bf66414743aa84d7b241b2381cc1 name=sayhi process=1558
 time="2018-03-22T11:41:43Z" level=info msg="Setup function manager successfully" component=service
@@ -209,7 +209,7 @@ time="2018-03-22T11:42:43Z" level=info msg="Subscribe successfully" clientID=MQT
     level: 'debug'
   ```
 * 测试`test`主题输出日志信息
-  ```
+  ```Shell
   pi@raspberrypi:~/zengjf/iot-intelligent-edge-beta-0.9.3.22-linux-arm $ cat var/log/iotedge.log
   time="2018-03-23T00:44:44Z" level=debug msg="Function instance start arguments: [/home/pi/zengjf/iot-intelligent-edge-beta-0.9.3.22-linux-arm/libexec/iotedge_python2.7 /home/pi/zengjf/iot-intelligent-edge-beta-0.9.3.22-linux-arm/libexec/iotedge_python2.7 /home/pi/zengjf/iot-intelligent-edge-beta-0.9.3.22-linux-arm/example/function/sayhi sayhi.handler 5ee058fa48ae410ea615bd67a2a0786f]" component=function name=sayhi
   time="2018-03-23T00:44:44Z" level=info msg="Create function instance successfully" component=funclet instance=5ee058fa48ae410ea615bd67a2a0786f name=sayhi process=3812
