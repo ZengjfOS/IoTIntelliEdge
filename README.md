@@ -4,6 +4,7 @@
 
 ## Docs
 
+* [0004_iotedge_Passwd_Change.md](docs/0004_iotedge_Passwd_Change.md)：修改Client连接登陆的密码；
 * [0003_i.MX6_Buildroot_Run_iotedge.md](docs/0003_i.MX6_Buildroot_Run_iotedge.md)：在i.MX6DL芯片上运行Buildroot文件系统，同时测试`iotedge`程序通信；
 * [0002_Example_test_Hacking.md](docs/0002_Example_test_Hacking.md)：分析测试`test`主题工作原理；
 * [0001_RPi3_For_Work.md](docs/0001_RPi3_For_Work.md)：在树莓派3上测试`iotedge`通信；
