@@ -2,7 +2,7 @@
 
 ## `conf/iotedge.yml`相关配置
 
-```
+```yaml
 [...省略]
 subscriptions:
   - source: 'test'
