@@ -4,7 +4,8 @@
 
 ## Docs
 
-* [0005_iotedge_python2.7_hacking.md](docs/0005_iotedge_python2.7_hacking.md)：iotedge python2.7 代码跟踪，主要是想改成Python3来处理；
+* [0006_iotedge_python3_Config.md](docs/0006_iotedge_python3_Config.md)：测试将Python 2.7换成Python 3的语言执行；
+* [0005_iotedge_python2.7_hacking.md](docs/0005_iotedge_python2.7_hacking.md)：iotedge python 2.7 代码跟踪，主要是想改成Python 3来处理；
 * [0004_iotedge_Passwd_Change.md](docs/0004_iotedge_Passwd_Change.md)：修改Client连接登陆的密码；
 * [0003_i.MX6_Buildroot_Run_iotedge.md](docs/0003_i.MX6_Buildroot_Run_iotedge.md)：在i.MX6DL芯片上运行Buildroot文件系统，同时测试`iotedge`程序通信；
 * [0002_Example_test_Hacking.md](docs/0002_Example_test_Hacking.md)：分析测试`test`主题工作原理；
